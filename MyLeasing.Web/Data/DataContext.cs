@@ -13,7 +13,7 @@ namespace MyLeasing.Web.Data
         {
 
         }
-        public DbSet<Contract> ContractS { get; set; }
+        public DbSet<Contract> Contracts { get; set; }
 
         public DbSet<Lessee> Lessees { get; set; }
 
