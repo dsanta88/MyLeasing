@@ -43,7 +43,7 @@ namespace MyLeasing.Web.Data.Entities
 
         public Owner Owner { get; set; }
         public Lessee Lessee { get; set; }
-        public PropertyType PropertyType { get; set; }
+        public Property Property { get; set; }
 
     }
 }
